@@ -2,7 +2,7 @@
 
 namespace App;
 
-class User extends Authenticatable
+class Student
 {
     /**
      * The attributes that are mass assignable.
@@ -10,7 +10,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'age',
     ];
 
     /**
