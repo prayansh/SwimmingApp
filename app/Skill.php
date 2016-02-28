@@ -10,7 +10,7 @@ class Skill
      * @var array
      */
     protected $fillable = [
-        'name', 'mark', 'conpleted',
+        'name', 'mark', 'completed',
     ];
 
     /**
